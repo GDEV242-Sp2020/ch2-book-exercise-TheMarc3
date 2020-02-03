@@ -1,32 +1,33 @@
-import static org.junit.Assert.*;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+// import static org.junit.Assert.*;
+// import org.junit.After;
+// import org.junit.Before;
+// import org.junit.Test;
 
-/**
- * The test class BookTest.
- * 
- * It is designed to test the mutators and accessors of the
- * book class. you must complete the assignment precisely
- * or the tests will not run. 
- * 
- * To run the tests, compile your project. You can test your classs
- * manually in BlueJ by creating instances and assigning values
- *.To run the test, right click on the BookTest object and select
- * run all tests. If you get a series of green checks, your
- * class is behaving properly. If you receive a red X, examine
- * your class and figure out why your implementation is not 
- * passing that test.
- *
- * @author  Crosbie
- * @version 0.1alpha
- */
+// /**
+ // * The test class BookTest.
+ // * 
+ // * It is designed to test the mutators and accessors of the
+ // * book class. you must complete the assignment precisely
+ // * or the tests will not run. 
+ // * 
+ // * To run the tests, compile your project. You can test your classs
+ // * manually in BlueJ by creating instances and assigning values
+ // *.To run the test, right click on the BookTest object and select
+ // * run all tests. If you get a series of green checks, your
+ // * class is behaving properly. If you receive a red X, examine
+ // * your class and figure out why your implementation is not 
+ // * passing that test.
+ // *
+ // * @author  Crosbie
+ // * @version 0.1alpha
+ // * @edits made by Marc Weitze
+ // */
 
-/* Uncomment this when you are ready to
- * to test your Book class against the specification.
- * Select the entire class and use the uncomment shortcut from the 
- * edit menu
- */
+// /* Uncomment this when you are ready to
+ // * to test your Book class against the specification.
+ // * Select the entire class and use the uncomment shortcut from the 
+ // * edit menu
+ // */
 // public class BookTest
 // {
     // private Book book1;
@@ -35,8 +36,8 @@ import org.junit.Test;
 
 
     // /**
-     // * Default constructor for test class BookTest
-     // */
+    // * Default constructor for test class BookTest
+    // */
     // public BookTest()
     // {
     // }
