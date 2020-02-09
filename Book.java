@@ -73,5 +73,13 @@ class Book
         System.out.println(getPages());
     }
     
+    
+    public void printDetails()
+    {
+        System.out.println("The book " + getTitle() +
+        " written by " + getAuthor() + " has " + getPages()
+        + " pages.");
+    }
+    
     // Add the methods here ...
 }
