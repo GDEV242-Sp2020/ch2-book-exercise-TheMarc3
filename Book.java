@@ -1,4 +1,3 @@
-
 /**
  * A class that maintains information on a book.
  * This might form part of a larger application such
@@ -13,6 +12,7 @@ class Book
     private String author;
     private String title;
     private int pages;
+    private String refNumber;
 
     /**
      * Set the author and title fields when this object
@@ -23,6 +23,7 @@ class Book
         author = bookAuthor;
         title = bookTitle;
         pages = bookPages;
+        refNumber = "";
     }
     
     /**
@@ -47,6 +48,16 @@ class Book
     public int getPages()
     {
         return pages;
+    }
+    
+    public void setRefNumber(String ref)
+    {
+        refNumber = ref;
+    }
+    
+    public String getRefNumber()
+    {
+        return refNumber;
     }
     
     /**
