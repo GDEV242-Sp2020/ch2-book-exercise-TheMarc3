@@ -90,6 +90,15 @@ class Book
         System.out.println("The book " + getTitle() +
         " written by " + getAuthor() + " has " + getPages()
         + " pages.");
+        
+        if(!getRefNumber().equals("") || !getRefNumber().equals(null))
+        {
+            System.out.print(" Reference #: " + getRefNumber());
+        }
+        else
+        {
+            System.out.print(" ZZZ");
+        }
     }
     
     // Add the methods here ...
